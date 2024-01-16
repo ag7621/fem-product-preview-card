@@ -8,6 +8,12 @@
     --white: hsl(0, 0%, 100%);
 
     /* components */
+    --clr-background: var(--cream);
+
+    --clr-text-primary: var(--vry-dk-blue);
+    --clr-text-secondary: var(--dk-gray-blue);
+    --clr-accent: var(--dk-cyan);
+    --clr-white: var(--white);
 
     /* font size */
     --fs-400: 0.875rem;
@@ -15,4 +21,50 @@
     /* font weight */
     --fw-medium: 500;
     --fw-bold: 700;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+} */
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
 }
