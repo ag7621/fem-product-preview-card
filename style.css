@@ -68,3 +68,9 @@ h6 {
 #__next {
     isolation: isolate;
 }
+
+body {
+    background-color: var(--clr-background);
+    font-size: var(--fs-400);
+    font-weight: var(--fw-medium);
+}
