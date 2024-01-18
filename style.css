@@ -73,4 +73,26 @@ body {
     background-color: var(--clr-background);
     font-size: var(--fs-400);
     font-weight: var(--fw-medium);
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: var(--clr-white);
+    height: 450px;
+    width: 600px;
+}
+
+img {
+    width: 50%;
+}
+
+.content {
+    width: 50%;
 }
