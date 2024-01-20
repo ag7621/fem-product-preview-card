@@ -88,8 +88,10 @@ main {
     background-color: var(--clr-white);
     display: flex;
     flex-direction: row;
+    border-radius: 10px;
     height: 450px;
     max-width: 600px;
+    overflow: hidden;
 }
 
 picture {
@@ -123,6 +125,41 @@ img {
 
 .description {
     color: var(--clr-text-secondary);
-    margin: 1.6rem 0;
+    margin: 1.6rem 0 1.35rem;
     line-height: 1.6;
+}
+
+.pricing {
+    display: flex;
+    align-items: center;
+}
+
+.price-current {
+    color: var(--clr-accent);
+    font-size: var(--fs-800);
+    font-family: 'Fraunces', serif;
+    margin-right: 1rem;
+}
+
+.price-original {
+    color: var(--clr-text-secondary);
+    text-decoration: line-through;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-accent);
+    color: var(--clr-white);
+    border: none;
+    border-radius: 8px;
+    margin-top: 1.3rem;
+    padding: 0.85rem;
+    font-weight: var(--fw-bold);
+}
+
+button img {
+    margin-right: 10px;
+    height: 15px;
 }
