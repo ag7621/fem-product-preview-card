@@ -1,6 +1,7 @@
 :root {
     /* colors */
     --dk-cyan: hsl(158, 36%, 37%);
+    --vry-dk-cyan: hsl(157, 70%, 13%);
     --cream: hsl(30, 38%, 92%);
 
     --vry-dk-blue: hsl(212, 21%, 14%);
@@ -13,6 +14,7 @@
     --clr-text-primary: var(--vry-dk-blue);
     --clr-text-secondary: var(--dk-gray-blue);
     --clr-accent: var(--dk-cyan);
+    --clr-accent-dk: var(--vry-dk-cyan);
     --clr-white: var(--white);
 
     /* font size */
@@ -157,6 +159,12 @@ button {
     margin-top: 1.3rem;
     padding: 0.85rem;
     font-weight: var(--fw-bold);
+    transition: background-color 100ms ease-in-out;
+}
+
+button:hover {
+    background-color: var(--clr-accent-dk);
+    cursor: pointer;
 }
 
 button img {
